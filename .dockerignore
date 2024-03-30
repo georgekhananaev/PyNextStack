@@ -1,0 +1,25 @@
+# Excluding next.js frontend when creating the backend container.
+nextjs/
+
+# Exclude Python bytecode files
+*.pyc
+
+# Exclude Python cache directories
+__pycache__
+
+# Exclude development and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude Git related files and directories
+.git
+.gitignore
+
+# Exclude test and documentation files
+tests/
+docs/
+
+# Exclude any other files or directories that are not necessary for the runtime environment
+# Add additional exclusions as needed based on your project structure

@@ -1,0 +1,43 @@
+version: '3.12-slim'
+
+services:
+  fastapi:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - NEXT_PUBLIC_API_KEY=${static_bearer_secret_key}
+    depends_on:
+      - mongodb
+      - redis
+
+  nextjs:
+    build:
+      context: ./nextjs
+      dockerfile: Dockerfile
+    volumes:
+      - ./nextjs:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+
+  mongodb:
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=bringthemhome
+      - MONGO_INITDB_ROOT_PASSWORD=${mongodb_password}
+    ports:
+      - "27017:27017" # for testing purposes you can expose the MongoDB port
+    volumes:
+      - mongodb_data:/data/db
+
+  redis:
+    image: redis:latest
+    volumes:
+      - redis_data:/data
+
+volumes:
+  mongodb_data:
+  redis_data:
