@@ -7,7 +7,9 @@
 Username: root
 Password: bringthemhome
 ```
-In the demo version, ChatGPT won't function as it's not connected to the API. Additionally, you can modify the SMTP settings to suit your needs in order to test the forgot-password functionality.
+Only one user can be logged in at a time. Therefore, it's advisable to register your own user first, and then promptly log in as the root user to change your role.
+
+Please note that in the demo version, ChatGPT will not function as it is not connected to the API. Additionally, you have the option to modify the SMTP settings to suit your needs for testing the forgot-password functionality. It has been successfully tested with GMAIL. Later on, I will disable the edit functionality and added my own SMTP settings for your testing convenience for now just use it as it please.
 ## Overview
 
 PyNextStack is a full-stack system utilizing FastAPI with asynchronous capabilities on the backend and Next.js for the frontend showcases the robustness of Python in server-side development. This architecture provides a scalable, efficient solution that leverages FastAPI's high performance and ease of use for creating APIs, alongside Next.js for a reactive and server-side rendered user interface. The asynchronous nature of the backend ensures non-blocking operation, enhancing the system's ability to handle high volumes of requests simultaneously, which is ideal for real-time applications. This combination offers a modern, full-stack framework that is both powerful and developer-friendly, demonstrating the versatility of Python in web development.
@@ -231,6 +233,16 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Additional Requests
 
 If you have ideas on how we can grow it into something greater, please share your suggestions. Additionally, if you have any special requests or unique features you'd like to see implemented, feel free to include those as well.
+
+## Goals
+
+**Upon reaching 100 stars, the project will incorporate the following features:**
+
+1. Firebase authentication support will be integrated.
+2. Two-Factor Authentication will be implemented.
+3. SMS and WhatsApp support will be added to the backend with TWILIO.
+4. File handling capabilities, utilizing either Google Storage or AWS.
+5. Enhanced email handling, including functionalities such as Inbox, Outgoing, Draft, etc.
 
 ## Support Me
 
