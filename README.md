@@ -7,7 +7,7 @@
 Username: root
 Password: bringthemhome
 ```
-In the demo version, ChatGPT won't function as it's not connected to the API. Additionally, I've disabled the ability to edit SMTP settings. You can test the "forgot password" button with my own SMTP settings, just register an user first.
+In the demo version, ChatGPT won't function as it's not connected to the API. Additionally, you can modify the SMTP settings to suit your needs in order to test the forgot-password functionality.
 ## Overview
 
 PyNextStack is a full-stack system utilizing FastAPI with asynchronous capabilities on the backend and Next.js for the frontend showcases the robustness of Python in server-side development. This architecture provides a scalable, efficient solution that leverages FastAPI's high performance and ease of use for creating APIs, alongside Next.js for a reactive and server-side rendered user interface. The asynchronous nature of the backend ensures non-blocking operation, enhancing the system's ability to handle high volumes of requests simultaneously, which is ideal for real-time applications. This combination offers a modern, full-stack framework that is both powerful and developer-friendly, demonstrating the versatility of Python in web development.
