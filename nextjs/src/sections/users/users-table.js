@@ -259,10 +259,10 @@ function UserTable() {
                                 <TableCell>{user.role}</TableCell>
                                 <TableCell align="right">
                                     <Tooltip title={"Edit the user"}>
-                                    <IconButton onClick={() => handleEdit(user)}><EditIcon/></IconButton>
+                                    <IconButton disabled={user.role === "owner"} onClick={() => handleEdit(user)}><EditIcon/></IconButton>
                                     </Tooltip>
                                     <Tooltip title={"Delete the user"}>
-                                    <IconButton onClick={() => handleDelete(user._id)}><DeleteIcon/></IconButton>
+                                    <IconButton disabled={user.role === "owner"} onClick={() => handleDelete(user._id)}><DeleteIcon/></IconButton>
                                     </Tooltip>
                                 </TableCell>
                             </TableRow>

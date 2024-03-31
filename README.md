@@ -1,11 +1,16 @@
 # PyNextStack a Full-Stack User Management System with FastAPI, Next.js, and MUI & More...
 
 
+**DEMO: [https://demo-pynextstack.reactatomics.com]()** 
+
+```
+Username: root
+Password: bringthemhome
+```
+In the demo version, ChatGPT won't function as it's not connected to the API. Additionally, I've disabled the ability to edit SMTP settings. You can test the "forgot password" button with my own SMTP settings, just register an user first.
 ## Overview
 
 PyNextStack is a full-stack system utilizing FastAPI with asynchronous capabilities on the backend and Next.js for the frontend showcases the robustness of Python in server-side development. This architecture provides a scalable, efficient solution that leverages FastAPI's high performance and ease of use for creating APIs, alongside Next.js for a reactive and server-side rendered user interface. The asynchronous nature of the backend ensures non-blocking operation, enhancing the system's ability to handle high volumes of requests simultaneously, which is ideal for real-time applications. This combination offers a modern, full-stack framework that is both powerful and developer-friendly, demonstrating the versatility of Python in web development.
-
-_"Why python? In just a few days, I was able to develop an advanced system; imagine the vast expanse of innovation we could unlock with several months at our disposal. The only limit to what we can achieve lies in the breadth of our imagination." - George Khananaev_
 
 ## Key Features
 
@@ -59,6 +64,11 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 Once you have Docker and Python installed, you're ready to proceed with the project setup. The next sections will guide you through configuring your development environment, running the project with Docker, and executing any necessary Python scripts or commands.
+
+
+**You can watch this:**
+
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/H2oYT-Ame9w/maxresdefault.jpg?v=660965c5&sqp=CNjKpbAG&rs=AOn4CLDdw8xBoa0h7eeR4MRY-U2QDDAwYw)](https://youtu.be/H2oYT-Ame9w)
 
 
 ### Clone the Repository
@@ -218,12 +228,21 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Developed by George Khananaev.
 - Thanks to the FastAPI, MongoDB, Redis, and Docker communities for support and resources.
 
-## Support Me
+## Additional Requests
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/georgekhananaev)
+If you have ideas on how we can grow it into something greater, please share your suggestions. Additionally, if you have any special requests or unique features you'd like to see implemented, feel free to include those as well.
+
+## Support Me
 
 If you find my work helpful, consider supporting me by buying me a coffee at [Buy Me A Coffee](https://www.buymeacoffee.com/georgekhananaev).
 
 Your support helps me continue to create and maintain useful projects. 
 
 Thank you!
+
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/georgekhananaev)
+
+
+**Learn Python Today.**
+_"Why python? In just a few days, I was able to develop an advanced system; imagine the vast expanse of innovation we could unlock with several months at our disposal. The only limit to what we can achieve lies in the breadth of our imagination." - George Khananaev_

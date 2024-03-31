@@ -15,6 +15,12 @@ import ScrollToTop from "@/components/scroll-top-top"; // if you are going to us
 
 const queryClient = new QueryClient();
 
+function getVersion() {
+  // Assuming package.json is located in the public folder
+  const { version } = require('../../package.json');
+  return version;
+}
+
 function MyApp({Component, pageProps}) {
     const particlesInit = useCallback(async engine => {
         await loadSlim(engine);
@@ -91,7 +97,7 @@ function MyApp({Component, pageProps}) {
                         detectRetina: true,
                     }}/>
                     <ScrollToTop>
-                        <Menu title="PyNextStack" subtitle="v30.03.2024 - Latest" navItems={menuItems}/>
+                        <Menu title="PyNextStack" subtitle={getVersion()} navItems={menuItems}/>
                         <WrapperEffects effect={"softSlideInDown"} pageProps={pageProps}>
 
                             <Container sx={{mt: 3}}>

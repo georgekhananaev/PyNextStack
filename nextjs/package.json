@@ -1,6 +1,6 @@
 {
   "name": "py-next-stack",
-  "version": "30.03.2024",
+  "version": "v31.03.2024",
   "private": true,
   "scripts": {
     "dev": "next dev",

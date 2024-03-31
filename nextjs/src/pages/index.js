@@ -20,11 +20,10 @@ const sections = [
 const Home = () => {
     const [isClient, setIsClient] = useState(false);
     const [activeSection, setActiveSection] = useState("");
-    const [copiedText, setCopiedText] = useState('');
 
     const handleCopyClick = (text) => {
         navigator.clipboard.writeText(text)
-            .then(() => setCopiedText(text))
+            .then()
             .catch((error) => console.error('Failed to copy text: ', error));
     };
 
@@ -190,6 +189,17 @@ const Home = () => {
 
                                 {section.id === 'installation' && (
                                     <>
+                                        <Box sx={{my: 2, display: 'flex', justifyContent: 'center'}}>
+                                            <iframe
+                                                width="100%"
+                                                height="615"
+                                                src="https://www.youtube.com/embed/H2oYT-Ame9w"
+                                                title="How to Install PyNextStack Tutorial"
+                                                frameBorder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowFullScreen
+                                            ></iframe>
+                                        </Box>
                                         <Typography variant="h6" gutterBottom>
                                             1. Clone the Repository
                                         </Typography>

@@ -138,9 +138,9 @@ async def get_open_api_endpoint(credentials: HTTPBasicCredentials = Depends(veri
     from fastapi.openapi.utils import get_openapi
 
     openapi_schema = get_openapi(
-        title="Your app title is here",
+        title="PyNextStack - SwaggerUI",
         version="v1.00",
-        description="You app description is here",
+        description="FastAPI with asynchronous capabilities on the backend and Next.js for the frontend showcases the robustness of Python in server-side development. This architecture provides a scalable, efficient solution that leverages FastAPI's high performance and ease of use for creating APIs, alongside Next.js for a reactive and server-side rendered user interface. The asynchronous nature of the backend ensures non-blocking operation, enhancing the system's ability to handle high volumes of requests simultaneously, which is ideal for real-time applications. This combination offers a modern, full-stack framework that is both powerful and developer-friendly, demonstrating the versatility of Python in web development.",
         routes=app.routes,
     )
 
