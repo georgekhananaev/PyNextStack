@@ -198,13 +198,13 @@ const Home = () => {
                                                 <Box sx={{bgcolor: 'background.paper', borderRadius: 2, p: 2}}>
                     <pre>
                         <code>
-                            git clone https://github.com/georgekhananaev/fullstack-user-management-system.git
+                            git clone https://github.com/georgekhananaev/PyNextStack
                         </code>
                     </pre>
                                                 </Box>
                                             </Box>
                                             <IconButton
-                                                onClick={() => handleCopyClick('git clone https://github.com/georgekhananaev/fullstack-user-management-system.git')}>
+                                                onClick={() => handleCopyClick('git clone https://github.com/georgekhananaev/PyNextStack')}>
                                                 <FileCopyIcon/>
                                             </IconButton>
                                         </Box>

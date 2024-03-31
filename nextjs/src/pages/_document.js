@@ -6,7 +6,7 @@ class MyDocument extends Document {
             <Html lang="en">
                 <Head>
                     <meta charSet="utf-8"/>
-                    <meta name="description" content="Your website description"/>
+                    <meta name="description" content="PyNextStack is a full-stack system utilizing FastAPI with asynchronous capabilities on the backend and Next.js for the frontend showcases the robustness of Python in server-side development."/>
                     <link rel="stylesheet"
                           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
                 </Head>

@@ -1,6 +1,5 @@
-# Full-Stack User Management System with FastAPI, Next.js, and MUI & More...
+# PyNextStack a Full-Stack User Management System with FastAPI, Next.js, and MUI & More...
 
-**THE SYSTEM IS UNDER HEAVY DEVELOPMENT, STAY TUNED!**
 
 ## Overview
 
@@ -64,7 +63,7 @@ Once you have Docker and Python installed, you're ready to proceed with the proj
 
 ### Clone the Repository
    ```shell
-   git clone https://github.com/georgekhananaev/fullstack-user-management-system.git
+   git clone https://github.com/georgekhananaev/PyNextStack
    ```
 
 ### Docker Installation for Full Deployment (4 Containers)
