@@ -1,13 +1,13 @@
 # PyNextStack a Full-Stack User Management System with FastAPI, Next.js, and MUI & More...
 
 
-**DEMO: [https://demo-pynextstack.reactatomics.com]()** 
+DEMO: [https://demo-pynextstack.reactatomics.com](https://demo-pynextstack.reactatomics.com)
 
 ```
 Username: root
 Password: bringthemhome
 ```
-Only one user can be logged in at a time. Therefore, it's advisable to register your own user first, and then promptly log in as the root user to change your role.
+For the DEMO, only one root user can be logged in at a time. Therefore, it is recommended to register your own user first and then promptly log in as the root user to change your role. Otherwise, you might cause each other to be disconnected while trying the demo.
 
 Please note that in the demo version, ChatGPT will not function as it is not connected to the API. Additionally, you have the option to modify the SMTP settings to suit your needs for testing the forgot-password functionality. It has been successfully tested with GMAIL. Later on, I will disable the edit functionality and added my own SMTP settings for your testing convenience for now just use it as it please.
 ## Overview
