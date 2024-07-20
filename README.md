@@ -68,9 +68,9 @@ Before you begin, ensure you have met the following requirements:
 Once you have Docker and Python installed, you're ready to proceed with the project setup. The next sections will guide you through configuring your development environment, running the project with Docker, and executing any necessary Python scripts or commands.
 
 
-**You can watch this:**
 
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/H2oYT-Ame9w/maxresdefault.jpg?v=660965c5&sqp=CNjKpbAG&rs=AOn4CLDdw8xBoa0h7eeR4MRY-U2QDDAwYw)](https://youtu.be/H2oYT-Ame9w)
+**You can watch this:**
+[![IMAGE ALT TEXT HERE](/screenshots/youtube.png)](https://youtu.be/H2oYT-Ame9w)
 
 
 ### Clone the Repository
@@ -248,13 +248,8 @@ If you have ideas on how we can grow it into something greater, please share you
 
 If you find my work helpful, consider supporting me by buying me a coffee at [Buy Me A Coffee](https://www.buymeacoffee.com/georgekhananaev).
 
-Your support helps me continue to create and maintain useful projects. 
-
-Thank you!
-
+Your support helps me continue to create and maintain useful projects.
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/georgekhananaev)
 
-
-**Learn Python Today.**
-_"Why python? In just a few days, I was able to develop an advanced system; imagine the vast expanse of innovation we could unlock with several months at our disposal. The only limit to what we can achieve lies in the breadth of our imagination." - George Khananaev_
+Thank you!
